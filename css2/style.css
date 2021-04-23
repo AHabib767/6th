@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+}
+       /*Header section*/
+
+header{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 25px 0px;
+    margin-top: 20px;
+}
+li.nav-item {
+    padding: 0px 18px;
+}
+ul.navbar-nav {
+    margin-top: 8px;
+}
+     /*  contact section*/
+.contact{
+    background:#ee4a3f;
+    padding-bottom: 35px;
+
+}
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+h6 {
+    font-size: 18px;
+    color: white;
+    width: 92%;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.col-md-3 {
+    margin-top: 125px;
+    margin-bottom: -66px
+}
+input#pwd {
+    width: 90%;
+    background: #;
+    background: #ff6258;
+    padding: 22px;
+    border: none;
+}
+label {
+    display: inline-block;
+    margin-bottom: 9px;
+    color: white;
+}
+.form-content{
+    margin: 30px;
+}
+.footer{
+    background-color: #ef4035;
+    padding: 36px 0px;
+}
+.one{
+	color: white;
+
+}
+b{
+    color: yellow;
+    background: red;
+    padding: 5px 10px;
+    margin: 28px 52px;
+}
+.btn {
+    width: 100%;
+    margin: 4px 0px;
+    background: #28282e;
+}
+
+/*media Query*/
+/*mobile device*/
+@media (min-width: 320px) and (max-width: 576px){
+	
+}
+//*small device*/
+@media(min-width: 576.01px) and (max-width:768px){
+	
+}
+/*medium device*/
+@media (min-width: 768.01px) and (max-width: 992px){
+	
+} 
+/*large device*/
+
+@media (min-width: 992px) and (max-width: 1140px){
+	
+}

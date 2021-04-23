@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+}
+       /*Header section*/
+
+header{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 25px 0px;
+    margin-top: 20px;
+}
+img {
+    margin-bottom: 22px;
+}
+li.nav-item {
+    padding: 0px 18px;
+}
+ul.navbar-nav {
+    margin-top: 8px;
+}
+span {
+    border-bottom: 8px solid #e4e4e4;
+    display: block;
+}
+     /*  About section*/
+.about{
+    background:#ffffff;
+    padding-bottom: 25px;
+
+}
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+    margin-top: 17px;
+    margin-bottom: 35px;
+}
+ h6 {
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #6b6b6b;
+    line-height: 24px;
+    text-align: justify;
+}
+.img-fluid {
+    max-width: 100%;
+    height: 213px;
+    margin-top: 21px;
+    margin-bottom: 85px;
+}
+p {
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 90px;
+    text-align: justify;
+    width: 92%;
+    padding-left: 52px;
+    color: #6b6b6b;
+}
+    /* footer section*/
+.footer{
+    background-color: #ef4035;
+    padding: 36px 0px;
+}
+.one{
+    color: white;
+
+}
+b{
+    color: yellow;
+    background: red;
+    padding: 5px 10px;
+    margin: 28px 52px;
+}
+.btn {
+    width: 100%;
+    margin: 4px 0px;
+    background: #28282e;
+}
+
+
+/*media Query*/
+/*mobile device*/
+@media (min-width: 320px) and (max-width: 576px){
+
+}
+//*small device*/
+@media(min-width: 576.01px) and (max-width:768px){
+    .col-md-3 {
+        margin-top: 29px;
+        margin-bottom: 17px;
+}
+}
+/*medium device*/
+@media (min-width: 768.01px) and (max-width: 992px){
+   
+} 
+/*large device*/
+
+@media (min-width: 992px) and (max-width: 1140px){
+   
+}
